@@ -1,0 +1,176 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/younhee/Projects/OdeToFood/OdeToFood/OdeToFood.csproj": {}
+  },
+  "projects": {
+    "/Users/younhee/Projects/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/younhee/Projects/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj",
+        "projectName": "OdeToFood.Core",
+        "projectPath": "/Users/younhee/Projects/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj",
+        "packagesPath": "/Users/younhee/.nuget/packages/",
+        "outputPath": "/Users/younhee/Projects/OdeToFood/OdeToFood.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/younhee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/younhee/Projects/OdeToFood/OdeToFood.Data/OdeToFood.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/younhee/Projects/OdeToFood/OdeToFood.Data/OdeToFood.Data.csproj",
+        "projectName": "OdeToFood.Data",
+        "projectPath": "/Users/younhee/Projects/OdeToFood/OdeToFood.Data/OdeToFood.Data.csproj",
+        "packagesPath": "/Users/younhee/.nuget/packages/",
+        "outputPath": "/Users/younhee/Projects/OdeToFood/OdeToFood.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/younhee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/younhee/Projects/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj": {
+                "projectPath": "/Users/younhee/Projects/OdeToFood/OdeToFood.Core/OdeToFood.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/younhee/Projects/OdeToFood/OdeToFood/OdeToFood.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/younhee/Projects/OdeToFood/OdeToFood/OdeToFood.csproj",
+        "projectName": "OdeToFood",
+        "projectPath": "/Users/younhee/Projects/OdeToFood/OdeToFood/OdeToFood.csproj",
+        "packagesPath": "/Users/younhee/.nuget/packages/",
+        "outputPath": "/Users/younhee/Projects/OdeToFood/OdeToFood/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/younhee/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/younhee/Projects/OdeToFood/OdeToFood.Data/OdeToFood.Data.csproj": {
+                "projectPath": "/Users/younhee/Projects/OdeToFood/OdeToFood.Data/OdeToFood.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

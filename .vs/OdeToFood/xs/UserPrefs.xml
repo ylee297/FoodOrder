@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{56CD4111-2AD7-4DB7-A347-31BC920DB175}|Default">
+  <MonoDevelop.Ide.ItemProperties.OdeToFood PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood/Pages/Restaurants/NotFound.cshtml">
+    <Files>
+      <File FileName="OdeToFood/Program.cs" Line="17" Column="1" />
+      <File FileName="OdeToFood/Pages/Restaurants/List.cshtml" Line="26" Column="41" />
+      <File FileName="OdeToFood/Pages/Restaurants/List.cshtml.cs" Line="23" Column="1" />
+      <File FileName="OdeToFood/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="OdeToFood/appsettings.json" Line="7" Column="23" />
+      <File FileName="OdeToFood.Data/IRestaurantData.cs" Line="12" Column="6" />
+      <File FileName="OdeToFood/Pages/Restaurants/Detail.cshtml" Line="1" Column="25" />
+      <File FileName="OdeToFood/Pages/Restaurants/Detail.cshtml.cs" Line="28" Column="53" />
+      <File FileName="OdeToFood/Pages/Restaurants/NotFound.cshtml" Line="6" Column="1" />
+      <File FileName="OdeToFood/Pages/Restaurants/NotFound.cshtml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OdeToFood" expanded="True">
+            <Node name="OdeToFood" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Restaurants" expanded="True">
+                  <Node name="NotFound.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="OdeToFood.Core" expanded="True" />
+            <Node name="OdeToFood.Data" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.OdeFood.Data FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
