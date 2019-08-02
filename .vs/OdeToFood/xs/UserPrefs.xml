@@ -1,27 +1,27 @@
 ﻿<Properties StartupConfiguration="{56CD4111-2AD7-4DB7-A347-31BC920DB175}|Default">
   <MonoDevelop.Ide.ItemProperties.OdeToFood PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood/Pages/Restaurants/NotFound.cshtml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="OdeToFood/Program.cs" Line="17" Column="1" />
-      <File FileName="OdeToFood/Pages/Restaurants/List.cshtml" Line="26" Column="41" />
-      <File FileName="OdeToFood/Pages/Restaurants/List.cshtml.cs" Line="23" Column="1" />
-      <File FileName="OdeToFood/appsettings.Development.json" Line="1" Column="1" />
-      <File FileName="OdeToFood/appsettings.json" Line="7" Column="23" />
-      <File FileName="OdeToFood.Data/IRestaurantData.cs" Line="12" Column="6" />
-      <File FileName="OdeToFood/Pages/Restaurants/Detail.cshtml" Line="1" Column="25" />
-      <File FileName="OdeToFood/Pages/Restaurants/Detail.cshtml.cs" Line="28" Column="53" />
-      <File FileName="OdeToFood/Pages/Restaurants/NotFound.cshtml" Line="6" Column="1" />
-      <File FileName="OdeToFood/Pages/Restaurants/NotFound.cshtml.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood/Pages/Restaurants/NotFound.cshtml" Line="7" Column="11" />
+      <File FileName="OdeToFood/Pages/Restaurants/NotFound.cshtml.cs" />
+      <File FileName="OdeToFood/Pages/Restaurants/Edit.cshtml" Line="14" Column="49" />
+      <File FileName="OdeToFood/Pages/Restaurants/Edit.cshtml.cs" Line="41" Column="14" />
+      <File FileName="OdeToFood.Core/Restaurant.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood/Pages/Restaurants/List.cshtml" Line="46" Column="49" />
+      <File FileName="OdeToFood.Data/IRestaurantData.cs" Line="41" Column="1" />
+      <File FileName="OdeToFood/Pages/Restaurants/List.cshtml.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood.Core/CuisineType.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood/Pages/Restaurants/Detail.cshtml" Line="22" Column="49" />
+      <File FileName="OdeToFood/Pages/Restaurants/Detail.cshtml.cs" Line="15" Column="1" />
+      <File FileName="../../../../usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.aspnetcore.razor.design/2.1.2/build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.CodeGeneration.targets" Line="121" Column="11" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OdeToFood" expanded="True">
+          <Node name="OdeToFood" expanded="True" selected="True">
             <Node name="OdeToFood" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="Restaurants" expanded="True">
-                  <Node name="NotFound.cshtml" selected="True" />
-                </Node>
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
             </Node>
             <Node name="OdeToFood.Core" expanded="True" />

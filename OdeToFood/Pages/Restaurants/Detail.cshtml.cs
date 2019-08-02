@@ -13,6 +13,9 @@ namespace OdeToFood.Pages.Restaurants
     {
         private readonly IRestaurantData restaurantData;
 
+        [TempData] // binding TempData to the variable below(trying to find a variable which has the same name as the key in TempData)
+        public string Message { get; set; }
+         
         public Restaurant Restaurant { get; set; }
 
         public DetailModel(IRestaurantData restaurantData)
