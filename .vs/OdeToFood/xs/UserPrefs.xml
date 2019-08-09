@@ -1,28 +1,41 @@
 ﻿<Properties StartupConfiguration="{56CD4111-2AD7-4DB7-A347-31BC920DB175}|Default">
   <MonoDevelop.Ide.ItemProperties.OdeToFood PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="OdeToFood/Pages/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="OdeToFood/Pages/Restaurants/NotFound.cshtml" Line="7" Column="11" />
-      <File FileName="OdeToFood/Pages/Restaurants/NotFound.cshtml.cs" />
-      <File FileName="OdeToFood/Pages/Restaurants/Edit.cshtml" Line="14" Column="49" />
-      <File FileName="OdeToFood/Pages/Restaurants/Edit.cshtml.cs" Line="41" Column="14" />
-      <File FileName="OdeToFood.Core/Restaurant.cs" Line="1" Column="1" />
-      <File FileName="OdeToFood/Pages/Restaurants/List.cshtml" Line="46" Column="49" />
-      <File FileName="OdeToFood.Data/IRestaurantData.cs" Line="41" Column="1" />
-      <File FileName="OdeToFood/Pages/Restaurants/List.cshtml.cs" Line="1" Column="1" />
-      <File FileName="OdeToFood.Core/CuisineType.cs" Line="1" Column="1" />
-      <File FileName="OdeToFood/Pages/Restaurants/Detail.cshtml" Line="22" Column="49" />
-      <File FileName="OdeToFood/Pages/Restaurants/Detail.cshtml.cs" Line="15" Column="1" />
-      <File FileName="../../../../usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.aspnetcore.razor.design/2.1.2/build/netstandard2.0/Microsoft.AspNetCore.Razor.Design.CodeGeneration.targets" Line="121" Column="11" />
+      <File FileName="OdeToFood/Pages/_ViewImports.cshtml" Line="5" Column="1" />
+      <File FileName="OdeToFood/Pages/Restaurants/_Summary.cshtml" />
+      <File FileName="OdeToFood.Data/InMemoryRestaurantData.cs" Line="75" Column="41" />
+      <File FileName="OdeToFood.Data/IRestaurantData.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood.Data/SqlRestaurantData.cs" Line="45" Column="43" />
+      <File FileName="OdeToFood.Data/OdeToFoodDbContext.cs" Line="1" Column="2" />
+      <File FileName="OdeToFood/ViewComponents/RestaurantCountViewComponenet.cs" Line="15" Column="10" />
+      <File FileName="OdeToFood/Pages/About.cshtml.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood/Pages/Contact.cshtml.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood/Pages/Error.cshtml.cs" Line="10" Column="2" />
+      <File FileName="OdeToFood/Pages/Shared/Components/RestaurantCount/Default.cshtml" Line="5" Column="7" />
+      <File FileName="OdeToFood/Pages/Shared/_Layout.cshtml" Line="48" Column="61" />
+      <File FileName="OdeToFood/Pages/About.cshtml" Line="1" Column="1" />
+      <File FileName="OdeToFood/Pages/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="OdeToFood/appsettings.json" Line="15" Column="1" />
+      <File FileName="OdeToFood/Program.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood/Startup.cs" Line="1" Column="1" />
+      <File FileName="OdeToFood/Pages/Shared/Components/RestaurantCount/Index.cshtml" Line="5" Column="7" />
+      <File FileName="OdeToFood/Pages/_ViewStart.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OdeToFood" expanded="True" selected="True">
+          <Node name="OdeToFood" expanded="True">
             <Node name="OdeToFood" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="Components" expanded="True">
+                    <Node name="RestaurantCount" expanded="True" />
+                  </Node>
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
+              <Node name="ViewComponents" expanded="True" />
             </Node>
             <Node name="OdeToFood.Core" expanded="True" />
             <Node name="OdeToFood.Data" expanded="True" />

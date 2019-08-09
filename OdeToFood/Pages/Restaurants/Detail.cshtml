@@ -1,6 +1,7 @@
 ﻿@page "{restaurantId:int}"
 @model DetailModel
 @{
+    ViewData["Title"] = "Detail";
 }
 
 <h2>@Model.Restaurant.Name</h2>
@@ -17,7 +18,7 @@
     Cuisine: @Model.Restaurant.Cuisine
 </div>
 
-@if(Model.Message != null)
+@if (Model.Message != null)
 {
     <div class="alert alert-info">@Model.Message</div>
 }

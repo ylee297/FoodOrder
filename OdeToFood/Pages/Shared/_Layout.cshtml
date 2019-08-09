@@ -45,6 +45,11 @@
             @RenderBody()
             <hr />
             <footer>
+                @* restaurant-count is an indication that 
+                    this vc tagHelper is going to find element count 
+                    in a component called restaurant*@
+                <vc:restaurant-count></vc:restaurant-count> 
+                @RenderSection("footer", required: false)
                 <p>&copy; 2019 - OdeToFood</p>
             </footer>
         </div>

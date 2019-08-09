@@ -10,3 +10,5 @@
 /Users/younhee/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.csproj.CopyComplete
 /Users/younhee/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.dll
 /Users/younhee/Projects/OdeToFood/OdeToFood.Data/obj/Debug/netcoreapp2.1/OdeToFood.Data.pdb
+/Users/younhee/Projects/OdeToFood/OdeToFood.Data/bin/Debug/netcoreapp2.1/OdeToFood.Data.runtimeconfig.json
+/Users/younhee/Projects/OdeToFood/OdeToFood.Data/bin/Debug/netcoreapp2.1/OdeToFood.Data.runtimeconfig.dev.json

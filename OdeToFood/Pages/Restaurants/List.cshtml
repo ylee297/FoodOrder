@@ -1,49 +1,31 @@
 ﻿@page
 @model ListModel
 @{
+    ViewData["Title"] = "Restaurants";
 }
 <h1>Restaurants</h1>
 
 <form method="get">
     <div class="form-group">
         <div class="input-group">
-            <input type="search" class="form-control" 
-                    asp-for="SearchTerm"/> @* asp-for == value + name*@
-            <span class="input-group-btn">
-                <button class="btn btn-default">
-                    <i class="glyphicon glyphicon-search"></i>
-                </button>
-            </span>
+            <input type="search" class="form-control"
+                   asp-for="SearchTerm" /> @* asp-for == value + name*@
+                <span class="input-group-btn">
+                    <button class="btn btn-default">
+                        <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                </span>
+            </div>
         </div>
-    </div>
-</form>
+    </form>
 
-<table class="table">
-    @foreach(var restaurant in Model.Restaurants){
-        <tr>
-            <td>@restaurant.Name</td>
-            <td>@restaurant.Location</td>
-            <td>@restaurant.Cuisine</td>
-            <td>
-                <a class="btn btn-lg"
-                    asp-page="./Detail"
-                    asp-route-restaurantId="@restaurant.Id" @* asp-route-() the thing that would be in the parameters is a variable that you want to pass to next page*@
-                    >
-
-                    <i class="glyphicon glyphicon-zoom-in"></i>
-                </a>
-                <a class="btn btn-lg"
-                   asp-page="./Edit"
-                   asp-route-restaurantId="@restaurant.Id" 
-                   > 
-                    <i class="glyphicon glyphicon-edit"></i>
-                </a>
-            </td>
-        </tr>
+    @foreach (var restaurant in Model.Restaurants)
+    {
+        <partial name="_Summary" model="restaurant" />
     }
-</table>
-
-<a asp-page="./Edit" class="btn btn-primary">Add New</a>
+    <a asp-page="./Edia" class="btn btn-primary">Add New</a>
 
 
-<div>@Model.Message</div>
+    @section footer {
+        <div>@Model.Message</div>
+    }
