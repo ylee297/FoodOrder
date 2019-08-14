@@ -4,11 +4,23 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <Target Name="PostBuild" AfterTargets="ComputeFilesToPublish">
+    <Exec Command="npm install"/>
+  </Target>
+
+  <ItemGroup>
+    <Content Include="node_modules/**" CopyToPublishDirectory="PreserveNewest"/>
+  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.6" />
+    <PackageReference Include="OdeToCode.UseNodeModules" Version="1.0.6" />
   </ItemGroup>
+
+  
 
   <ItemGroup>
     <Folder Include="Pages\Restaurants\" />
@@ -16,15 +28,26 @@
     <Folder Include="Pages\Shared\Components\" />
     <Folder Include="Pages\Shared\Components\RestaurantCount\" />
     <Folder Include="Pages\R2\" />
+    <Folder Include="Api\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Pages\Restaurants\Index.cshtml" />
     <Content Remove="Pages\Shared\Components\RestaurantCount\Default.cshtml" />
+    <Content Remove="wwwroot\OdeToFood.png" />
+    <Content Remove="wwwroot\DataTables\.DS_Store" />
+    <Content Remove="wwwroot\DataTables\datatables.css" />
+    <Content Remove="wwwroot\DataTables\datatables.js" />
+    <Content Remove="wwwroot\DataTables\datatables.min.css" />  
+    <Content Remove="wwwroot\DataTables\datatables.min.js" />
+    <Content Remove="wwwroot\DataTables\DataTables-1.10.18\css\dataTables.bootstrap.css" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Pages\Restaurants\Index.cshtml.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\OdeToFood.Data\OdeToFood.Data.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\OdeToFood.png" />
   </ItemGroup>
 </Project>
